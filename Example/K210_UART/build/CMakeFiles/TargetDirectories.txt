@@ -1,0 +1,6 @@
+J:/Learn/K210_example/K210_ARIV/Example/K210_UART/build/CMakeFiles/kendryte_uart-standalone.dir
+J:/Learn/K210_example/K210_ARIV/Example/K210_UART/build/CMakeFiles/edit_cache.dir
+J:/Learn/K210_example/K210_ARIV/Example/K210_UART/build/CMakeFiles/rebuild_cache.dir
+J:/Learn/K210_example/K210_ARIV/Example/K210_UART/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir
+J:/Learn/K210_example/K210_ARIV/Example/K210_UART/build/kendryte_standalone-sdk/CMakeFiles/edit_cache.dir
+J:/Learn/K210_example/K210_ARIV/Example/K210_UART/build/kendryte_standalone-sdk/CMakeFiles/rebuild_cache.dir
