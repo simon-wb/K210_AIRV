@@ -12,6 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+#include "nt35310.h"
 #include "gpiohs.h"
 #include "spi.h"
 #include "unistd.h"

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD
+# Install script for directory: J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/kendryte_standalone-sdk/cmake_install.cmake")
+  include("J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/kendryte_standalone-sdk/cmake_install.cmake")
 
 endif()
 

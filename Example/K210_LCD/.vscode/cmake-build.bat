@@ -1,4 +1,4 @@
-cd "j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build"
+cd "j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build"
 SET ALLUSERSPROFILE=C:\ProgramData
 SET APPDATA=C:\Users\26062\AppData\Roaming
 SET CommonProgramFiles=C:\Program Files\Common Files
@@ -15,7 +15,7 @@ SET KENDRYTE_IDE_LOCAL_PACKAGE_DIR=J:\Kendryte_IDE\KendryteIDE\LocalPackage
 SET KENDRYTE_IDE_UPDATER=J:\Kendryte_IDE\KendryteIDE\Updater\electron.exe
 SET KENDRYTE_IDE_UPDATER_CONTENT_ROOT=J:\Kendryte_IDE\KendryteIDE
 SET KENDRYTE_IDE_UPDATER_IS_BUILT=yes
-SET KENDRYTE_IDE_UPDATER_PIPE=\\?\pipe\C:\Users\26062\AppData\Local\Temp\KendryteIDE_Cache\21311_updater.sock
+SET KENDRYTE_IDE_UPDATER_PIPE=\\?\pipe\C:\Users\26062\AppData\Local\Temp\KendryteIDE_Cache\41998_updater.sock
 SET KENDRYTE_IDE_UPDATER_PIPE_ID=1
 SET LOCALAPPDATA=C:\Users\26062\AppData\Local
 SET LOGONSERVER=\\DESKTOP-REMQCP2
@@ -49,11 +49,11 @@ SET USERNAME=26062
 SET USERPROFILE=C:\Users\26062
 SET VSCODE_CWD=C:\WINDOWS\system32
 SET VSCODE_IPC_HOOK=\\.\pipe\112c5dce558c3c15695513d615454c73-1.34.1-beta-main-sock
-SET VSCODE_LOGS=J:\Kendryte_IDE\KendryteIDE\UserData\latest\user-data\logs\20200403T223305
+SET VSCODE_LOGS=J:\Kendryte_IDE\KendryteIDE\UserData\latest\user-data\logs\20200404T132210
 SET VSCODE_NLS_CONFIG={"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"2ae16f5a9a23c98b985a67d503c3ac22.zh-cn","_translationsConfigFile":"J:\\Kendryte_IDE\\KendryteIDE\\UserData\\latest\\user-data\\clp\\2ae16f5a9a23c98b985a67d503c3ac22.zh-cn\\tcf.json","_cacheRoot":"J:\\Kendryte_IDE\\KendryteIDE\\UserData\\latest\\user-data\\clp\\2ae16f5a9a23c98b985a67d503c3ac22.zh-cn","_resolvedLanguagePackCoreLocation":"J:\\Kendryte_IDE\\KendryteIDE\\UserData\\latest\\user-data\\clp\\2ae16f5a9a23c98b985a67d503c3ac22.zh-cn\\e4de46724de34a5f46541818e9fee25971ac9969","_corruptedFile":"J:\\Kendryte_IDE\\KendryteIDE\\UserData\\latest\\user-data\\clp\\2ae16f5a9a23c98b985a67d503c3ac22.zh-cn\\corrupted.info","_languagePackSupport":true}
 SET VSCODE_NODE_CACHED_DATA_DIR=J:\Kendryte_IDE\KendryteIDE\UserData\latest\user-data\CachedData\e4de46724de34a5f46541818e9fee25971ac9969
 SET VSCODE_PATH=J:\Kendryte_IDE\KendryteIDE\Application\app_1.34.1-beta_20190802.2
-SET VSCODE_PID=5192
+SET VSCODE_PID=14576
 SET VSCODE_PORTABLE=J:\Kendryte_IDE\KendryteIDE\UserData\latest
 SET windir=C:\WINDOWS
 SET XILINX_FOR_ALTIUM_OVERRIDE= 
@@ -63,4 +63,4 @@ SET PYTHONDONTWRITEBYTECODE=yes
 SET CMAKE_MAKE_PROGRAM=make
 SET KENDRYTE_IDE=yes
 SET LANG=en_US.utf-8
-"J:/Kendryte_IDE/KendryteIDE/LocalPackage/cmake/bin/cmake.exe" --build j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build -- -j 3
+"J:/Kendryte_IDE/KendryteIDE/LocalPackage/cmake/bin/cmake.exe" --build j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build -- -j 3

@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/config/fpioa-config.c" "J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj"
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/config/ide-hook-main.c" "J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj"
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/drivers/lcd/src/lcd.c" "J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.obj"
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/src/main.c" "J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj"
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/src/nt35310.c" "J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj"
+  "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/config/fpioa-config.c" "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj"
+  "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/config/ide-hook-main.c" "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj"
+  "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/drivers/lcd/src/lcd.c" "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.obj"
+  "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/src/main.c" "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj"
+  "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/src/nt35310.c" "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -22,7 +22,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "KENDRYTE_SDK_TYPE_FREERTOS=2"
   "KENDRYTE_SDK_TYPE_STANDALONE=1"
   "NNCASE_TARGET=k210"
-  "PROJECT_PATH=C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/"
+  "PROJECT_PATH=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/"
   "TCB_SPAN_NO_CONTRACT_CHECKING"
   "TCB_SPAN_NO_EXCEPTIONS"
   "__riscv64"
@@ -30,19 +30,19 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/src"
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/drivers/lcd/include"
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/config"
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include"
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include"
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/lib/utils/include"
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/third_party/xtl/include"
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/include"
+  "../src"
+  "../drivers/lcd/include"
+  "../config"
+  "../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include"
+  "../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include"
+  "../kendryte_libraries/kendryte_standalone-sdk/lib/utils/include"
+  "../kendryte_libraries/kendryte_standalone-sdk/third_party/xtl/include"
+  "../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/DependInfo.cmake"
+  "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

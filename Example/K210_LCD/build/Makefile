@@ -48,10 +48,10 @@ RM = J:/Kendryte_IDE/KendryteIDE/LocalPackage/cmake/bin/cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD
+CMAKE_SOURCE_DIR = J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build
+CMAKE_BINARY_DIR = J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(CMAKE_COMMAND) -E cmake_progress_start J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/CMakeFiles J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/CMakeFiles/progress.marks
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/CMakeFiles 0
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(CMAKE_COMMAND) -E cmake_progress_start J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/progress.marks
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/Makefile2 clean
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -97,17 +97,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
@@ -142,7 +142,7 @@ config/fpioa-config.obj: config/fpioa-config.c.obj
 
 # target to build an object file
 config/fpioa-config.c.obj:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj
 .PHONY : config/fpioa-config.c.obj
 
 config/fpioa-config.i: config/fpioa-config.c.i
@@ -151,7 +151,7 @@ config/fpioa-config.i: config/fpioa-config.c.i
 
 # target to preprocess a source file
 config/fpioa-config.c.i:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.i
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.i
 .PHONY : config/fpioa-config.c.i
 
 config/fpioa-config.s: config/fpioa-config.c.s
@@ -160,7 +160,7 @@ config/fpioa-config.s: config/fpioa-config.c.s
 
 # target to generate assembly for a file
 config/fpioa-config.c.s:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.s
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.s
 .PHONY : config/fpioa-config.c.s
 
 config/ide-hook-main.obj: config/ide-hook-main.c.obj
@@ -169,7 +169,7 @@ config/ide-hook-main.obj: config/ide-hook-main.c.obj
 
 # target to build an object file
 config/ide-hook-main.c.obj:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj
 .PHONY : config/ide-hook-main.c.obj
 
 config/ide-hook-main.i: config/ide-hook-main.c.i
@@ -178,7 +178,7 @@ config/ide-hook-main.i: config/ide-hook-main.c.i
 
 # target to preprocess a source file
 config/ide-hook-main.c.i:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.i
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.i
 .PHONY : config/ide-hook-main.c.i
 
 config/ide-hook-main.s: config/ide-hook-main.c.s
@@ -187,7 +187,7 @@ config/ide-hook-main.s: config/ide-hook-main.c.s
 
 # target to generate assembly for a file
 config/ide-hook-main.c.s:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.s
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.s
 .PHONY : config/ide-hook-main.c.s
 
 drivers/lcd/src/lcd.obj: drivers/lcd/src/lcd.c.obj
@@ -196,7 +196,7 @@ drivers/lcd/src/lcd.obj: drivers/lcd/src/lcd.c.obj
 
 # target to build an object file
 drivers/lcd/src/lcd.c.obj:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.obj
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.obj
 .PHONY : drivers/lcd/src/lcd.c.obj
 
 drivers/lcd/src/lcd.i: drivers/lcd/src/lcd.c.i
@@ -205,7 +205,7 @@ drivers/lcd/src/lcd.i: drivers/lcd/src/lcd.c.i
 
 # target to preprocess a source file
 drivers/lcd/src/lcd.c.i:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.i
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.i
 .PHONY : drivers/lcd/src/lcd.c.i
 
 drivers/lcd/src/lcd.s: drivers/lcd/src/lcd.c.s
@@ -214,7 +214,7 @@ drivers/lcd/src/lcd.s: drivers/lcd/src/lcd.c.s
 
 # target to generate assembly for a file
 drivers/lcd/src/lcd.c.s:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.s
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.s
 .PHONY : drivers/lcd/src/lcd.c.s
 
 src/main.obj: src/main.c.obj
@@ -223,7 +223,7 @@ src/main.obj: src/main.c.obj
 
 # target to build an object file
 src/main.c.obj:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj
 .PHONY : src/main.c.obj
 
 src/main.i: src/main.c.i
@@ -232,7 +232,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/main.c.i
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -241,7 +241,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/main.c.s
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 src/nt35310.obj: src/nt35310.c.obj
@@ -250,7 +250,7 @@ src/nt35310.obj: src/nt35310.c.obj
 
 # target to build an object file
 src/nt35310.c.obj:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj
 .PHONY : src/nt35310.c.obj
 
 src/nt35310.i: src/nt35310.c.i
@@ -259,7 +259,7 @@ src/nt35310.i: src/nt35310.c.i
 
 # target to preprocess a source file
 src/nt35310.c.i:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.i
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.i
 .PHONY : src/nt35310.c.i
 
 src/nt35310.s: src/nt35310.c.s
@@ -268,7 +268,7 @@ src/nt35310.s: src/nt35310.c.s
 
 # target to generate assembly for a file
 src/nt35310.c.s:
-	cd j:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.s
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.s
 .PHONY : src/nt35310.c.s
 
 # Help Target

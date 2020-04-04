@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk
+# Install script for directory: J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

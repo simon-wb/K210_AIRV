@@ -7,8 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/CMakeLists.txt"
-  "C:/Users/26062/OneDrive/Documents/Leaning/K210/K210_example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/CMakeLists.txt"
   "J:/Kendryte_IDE/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCInformation.cmake"
   "J:/Kendryte_IDE/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCXXInformation.cmake"
   "J:/Kendryte_IDE/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake"
@@ -22,9 +20,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "J:/Kendryte_IDE/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/Compiler/GNU-CXX.cmake"
   "J:/Kendryte_IDE/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/Compiler/GNU.cmake"
   "J:/Kendryte_IDE/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/Platform/Generic.cmake"
+  "../CMakeLists.txt"
   "CMakeFiles/3.13.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeSystem.cmake"
+  "../kendryte_libraries/kendryte_standalone-sdk/CMakeLists.txt"
   )
 
 # The corresponding makefile is:

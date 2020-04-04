@@ -1,6 +1,6 @@
-J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir
-J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/CMakeFiles/edit_cache.dir
-J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/CMakeFiles/rebuild_cache.dir
-J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir
-J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/kendryte_standalone-sdk/CMakeFiles/edit_cache.dir
-J:/Learn/K210_example/K210_ARIV/Example/K210_LCD/build/kendryte_standalone-sdk/CMakeFiles/rebuild_cache.dir
+J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir
+J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/edit_cache.dir
+J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/rebuild_cache.dir
+J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir
+J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/kendryte_standalone-sdk/CMakeFiles/edit_cache.dir
+J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/kendryte_standalone-sdk/CMakeFiles/rebuild_cache.dir

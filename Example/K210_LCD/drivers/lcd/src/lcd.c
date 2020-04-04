@@ -13,9 +13,10 @@
  * limitations under the License.
  */
 #include "lcd.h"
+
 #include <string.h>
 #include <unistd.h>
-#include "board_config.h"
+
 #include "font.h"
 #include "nt35310.h"
 

@@ -20,7 +20,6 @@
 #include <string.h>
 #include <sysctl.h>
 
-#include "board_config.h"
 #include "img.h"
 #include "nt35310.h"
 #include "plic.h"
