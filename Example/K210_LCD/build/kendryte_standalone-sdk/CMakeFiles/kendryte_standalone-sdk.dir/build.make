@@ -161,22 +161,9 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.s"
 	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/kendryte_standalone-sdk && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/syscalls.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/aes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj"
-	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/kendryte_standalone-sdk && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj   -c J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/aes.c
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.i"
-	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/kendryte_standalone-sdk && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/aes.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.i
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.s"
-	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/kendryte_standalone-sdk && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/aes.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.s
-
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/apu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.obj"
 	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/kendryte_standalone-sdk && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.obj   -c J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/apu.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.i: cmake_force
@@ -186,6 +173,19 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.s"
 	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/kendryte_standalone-sdk && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/apu.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.s
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/aes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj"
+	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/kendryte_standalone-sdk && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj   -c J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/aes.c
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.i"
+	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/kendryte_standalone-sdk && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/aes.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.i
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.s"
+	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/kendryte_standalone-sdk && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/aes.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/clint.c
@@ -561,8 +561,8 @@ kendryte_standalone__sdk_OBJECTS = \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.obj" \
@@ -603,8 +603,8 @@ kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CM
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.obj

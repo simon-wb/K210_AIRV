@@ -1,0 +1,21 @@
+{
+    "$schema": "vscode://schemas/CMakeLists",
+    "name": "BadApple",
+    "version": "1.0.0",
+    "entry": "src/main.c",
+    "source": [
+        "src/*.c",
+        "src/*.cpp",
+        "src/*.h",
+        "drivers/lcd/src/lcd.c",
+        "drivers/lcd/src/nt35310.c"
+    ],
+    "dependency": {
+        "kendryte/standalone-sdk": "develop",
+        "kendryte_sdcard-standalone-driver": "develop"
+    },
+    "header": [
+        "src",
+        "drivers/lcd/include"
+    ]
+}
