@@ -1,0 +1,17 @@
+{
+    "$schema": "vscode://schemas/CMakeLists",
+    "name": "K210_SD_Card",
+    "version": "1.0.0",
+    "entry": "src/main.c",
+    "source": [
+        "src/*.c",
+        "src/*.cpp",
+        "src/*.h"
+    ],
+    "dependency": {
+	    "kendryte/standalone-sdk": "develop"
+    },
+    "header": [
+        "driver"
+    ]
+}
