@@ -14,7 +14,7 @@ FIL file;
 FRESULT ret = FR_OK;
 uint32_t v_ret_len = 0;
 char filename_buffer[28];
-uint8_t frame_data[64800] __attribute__((aligned(8)));
+uint8_t frame_data[153600] __attribute__((aligned(8)));
 
 static int sdcard_init(void) {
   uint8_t status;
@@ -64,13 +64,14 @@ static void io_mux_init(void) {
 int main(void) {
   /* Set CPU and dvp clk */
   sysctl_pll_set_freq(SYSCTL_PLL0, 800000000UL);
-  sysctl_pll_set_freq(SYSCTL_PLL1, 160000000UL);
+  sysctl_pll_set_freq(SYSCTL_PLL1, 800000000UL);
   sysctl_pll_set_freq(SYSCTL_PLL2, 45158400UL);
 
   uarths_init();
   io_mux_init();
   plic_init();
   sysctl_enable_irq();
+  spi_set_clk_rate(SPI_DEVICE_0, 10000000);
   spi_set_clk_rate(SPI_DEVICE_1, 10000000);
   sleep(1);
   if (sdcard_init()) {
@@ -89,17 +90,17 @@ int main(void) {
   sleep(1);
 
   uint64_t time_start = sysctl_get_time_us();
-  for (size_t i = 1; i < 1316; i++) {
+  for (size_t i = 1; i < 2730; i = i + 3) {
     uint64_t draw_start_time = sysctl_get_time_us();
     sprintf(filename_buffer, "BadApple6PS/%d.bin", i);
     if ((ret = f_open(&file, filename_buffer, FA_READ)) == FR_OK) {
-      ret = f_read(&file, (void *)frame_data, 64800, &v_ret_len);
+      ret = f_read(&file, (void *)frame_data, 153600, &v_ret_len);
       f_close(&file);
     }
 
-    lcd_draw_picture(0, 0, 240, 135, frame_data);
+    lcd_draw_picture(0, 0, 320, 240, frame_data);
 
-    while ((sysctl_get_time_us() - draw_start_time) < 153000) {
+    while ((sysctl_get_time_us() - draw_start_time) < 153600) {
       ;
     }
   }

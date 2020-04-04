@@ -47,7 +47,7 @@ void SD_CS_HIGH(void) { gpiohs_set_pin(7, GPIO_PV_HIGH); }
 
 void SD_CS_LOW(void) { gpiohs_set_pin(7, GPIO_PV_LOW); }
 
-void SD_HIGH_SPEED_ENABLE(void) { spi_set_clk_rate(SPI_DEVICE_1, 30000000); }
+void SD_HIGH_SPEED_ENABLE(void) { spi_set_clk_rate(SPI_DEVICE_1, 40000000); }
 
 static void sd_lowlevel_init() {
   gpiohs_set_drive_mode(7, GPIO_DM_OUTPUT);
