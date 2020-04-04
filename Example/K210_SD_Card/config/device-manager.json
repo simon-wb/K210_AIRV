@@ -1,1 +1,9 @@
-{"selectedChip":"Kendryte K210","funcPinMap":{}}
+{
+    "selectedChip": "Kendryte K210",
+    "funcPinMap": {
+        "GPIOHS7": "A6",
+        "SPI1_SCLK": "A7",
+        "SPI1_D0": "B6",
+        "SPI1_D1": "B7"
+    }
+}

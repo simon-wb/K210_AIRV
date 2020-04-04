@@ -24,6 +24,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.13.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeSystem.cmake"
+  "../kendryte_libraries/kendryte_sdcard-standalone-driver/CMakeLists.txt"
   "../kendryte_libraries/kendryte_standalone-sdk/CMakeLists.txt"
   )
 
@@ -37,10 +38,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "kendryte_standalone-sdk/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "kendryte_sdcard-standalone-driver/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/K210_SD_Card.dir/DependInfo.cmake"
   "kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/DependInfo.cmake"
+  "kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/DependInfo.cmake"
   )

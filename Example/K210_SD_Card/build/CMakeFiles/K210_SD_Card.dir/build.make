@@ -57,9 +57,35 @@ include CMakeFiles/K210_SD_Card.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/K210_SD_Card.dir/flags.make
 
+CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.obj: CMakeFiles/K210_SD_Card.dir/flags.make
+CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.obj: ../config/fpioa-config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.obj"
+	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.obj   -c J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/config/fpioa-config.c
+
+CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.i"
+	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/config/fpioa-config.c > CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.i
+
+CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.s"
+	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/config/fpioa-config.c -o CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.s
+
+CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.obj: CMakeFiles/K210_SD_Card.dir/flags.make
+CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.obj: ../config/ide-hook-main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.obj"
+	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.obj   -c J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/config/ide-hook-main.c
+
+CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.i"
+	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/config/ide-hook-main.c > CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.i
+
+CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.s"
+	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/config/ide-hook-main.c -o CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.s
+
 CMakeFiles/K210_SD_Card.dir/src/main.c.obj: CMakeFiles/K210_SD_Card.dir/flags.make
 CMakeFiles/K210_SD_Card.dir/src/main.c.obj: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/K210_SD_Card.dir/src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/K210_SD_Card.dir/src/main.c.obj"
 	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/K210_SD_Card.dir/src/main.c.obj   -c J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/src/main.c
 
 CMakeFiles/K210_SD_Card.dir/src/main.c.i: cmake_force
@@ -72,16 +98,21 @@ CMakeFiles/K210_SD_Card.dir/src/main.c.s: cmake_force
 
 # Object files for target K210_SD_Card
 K210_SD_Card_OBJECTS = \
+"CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.obj" \
+"CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.obj" \
 "CMakeFiles/K210_SD_Card.dir/src/main.c.obj"
 
 # External object files for target K210_SD_Card
 K210_SD_Card_EXTERNAL_OBJECTS =
 
+K210_SD_Card: CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.obj
+K210_SD_Card: CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.obj
 K210_SD_Card: CMakeFiles/K210_SD_Card.dir/src/main.c.obj
 K210_SD_Card: CMakeFiles/K210_SD_Card.dir/build.make
+K210_SD_Card: kendryte_sdcard-standalone-driver/libkendryte_sdcard-standalone-driver.a
 K210_SD_Card: kendryte_standalone-sdk/libkendryte_standalone-sdk.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable K210_SD_Card"
-	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe -o K210_SD_Card  -mcmodel=medany -g   -mcmodel=medany -nostartfiles -static -Wl,--gc-sections -Wl,-static -Wl,-EL -Wl,--no-relax -T J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/kendryte_libraries/kendryte_standalone-sdk/lds/kendryte.ld "j:/kendryte_ide/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crti.o" "j:/kendryte_ide/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o" $(K210_SD_Card_OBJECTS) $(K210_SD_Card_EXTERNAL_OBJECTS) "j:/kendryte_ide/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o" "j:/kendryte_ide/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtn.o" -Wl,--start-group -lgcc -lm -lc -Wl,--whole-archive kendryte_standalone-sdk/libkendryte_standalone-sdk.a -Wl,--no-whole-archive -Wl,--end-group 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable K210_SD_Card"
+	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe -o K210_SD_Card  -mcmodel=medany -g   -mcmodel=medany -nostartfiles -static -Wl,--gc-sections -Wl,-static -Wl,-EL -Wl,--no-relax -T J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/kendryte_libraries/kendryte_standalone-sdk/lds/kendryte.ld "j:/kendryte_ide/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crti.o" "j:/kendryte_ide/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o" $(K210_SD_Card_OBJECTS) $(K210_SD_Card_EXTERNAL_OBJECTS) "j:/kendryte_ide/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o" "j:/kendryte_ide/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtn.o" -Wl,--start-group kendryte_sdcard-standalone-driver/libkendryte_sdcard-standalone-driver.a -lgcc -lm -lc -Wl,--whole-archive kendryte_standalone-sdk/libkendryte_standalone-sdk.a -Wl,--no-whole-archive -Wl,--end-group 
 	@echo "Generating .bin file ..."
 	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && riscv64-unknown-elf-objcopy.exe --output-format=binary j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/K210_SD_Card j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/K210_SD_Card.bin
 

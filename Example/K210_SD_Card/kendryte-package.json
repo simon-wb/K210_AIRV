@@ -5,13 +5,19 @@
     "entry": "src/main.c",
     "source": [
         "src/*.c",
-        "src/*.cpp",
-        "src/*.h"
+        "src/*.h",
+        "src/ccsbcs.c",
+        "src/diskio.c",
+        "src/ff.c",
+        "src/sdcard.c"
     ],
     "dependency": {
-	    "kendryte/standalone-sdk": "develop"
+        "kendryte/standalone-sdk": "develop",
+        "kendryte_sdcard-standalone-driver": "develop"
     },
     "header": [
-        "driver"
-    ]
+        "src",
+        "driver/SD_Card"
+    ],
+    "homepage": "https://github.com/simon-wb"
 }

@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/config/fpioa-config.c" "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.obj"
+  "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/config/ide-hook-main.c" "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.obj"
   "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/src/main.c" "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/CMakeFiles/K210_SD_Card.dir/src/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
@@ -26,8 +28,10 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../driver"
+  "../src"
+  "../driver/SD_Card"
   "../config"
+  "../kendryte_libraries/kendryte_sdcard-standalone-driver/include"
   "../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include"
   "../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include"
   "../kendryte_libraries/kendryte_standalone-sdk/lib/utils/include"
@@ -37,6 +41,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/DependInfo.cmake"
   "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/DependInfo.cmake"
   )
 

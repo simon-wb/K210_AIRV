@@ -57,8 +57,10 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../driver"
+  "../src"
+  "../driver/SD_Card"
   "../config"
+  "../kendryte_libraries/kendryte_sdcard-standalone-driver/include"
   "../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include"
   "../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include"
   "../kendryte_libraries/kendryte_standalone-sdk/lib/utils/include"
@@ -95,8 +97,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../driver"
+  "../src"
+  "../driver/SD_Card"
   "../config"
+  "../kendryte_libraries/kendryte_sdcard-standalone-driver/include"
   "../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include"
   "../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include"
   "../kendryte_libraries/kendryte_standalone-sdk/lib/utils/include"

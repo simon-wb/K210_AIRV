@@ -205,11 +205,13 @@ project(${PROJECT_NAME})
 ## [section] Header
 ### from project local
 include_directories(
-  "${CMAKE_CURRENT_LIST_DIR}/driver"
+  "${CMAKE_CURRENT_LIST_DIR}/src"
+  "${CMAKE_CURRENT_LIST_DIR}/driver/SD_Card"
 )### from ide
 include_directories("${CMAKE_CURRENT_LIST_DIR}/config")
 ## from project public
 include_directories(
+  "${CMAKE_CURRENT_LIST_DIR}/kendryte_libraries/kendryte_sdcard-standalone-driver/include"
   "${CMAKE_CURRENT_LIST_DIR}/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include"
   "${CMAKE_CURRENT_LIST_DIR}/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include"
   "${CMAKE_CURRENT_LIST_DIR}/kendryte_libraries/kendryte_standalone-sdk/lib/utils/include"
@@ -218,7 +220,9 @@ include_directories(
 )
 ## [/section] Header
 ## [section] Source
-## add source from config json (1 files matched)
+## add source from config json (3 files matched)
+add_source_file(config/fpioa-config.c)
+add_source_file(config/ide-hook-main.c)
 add_source_file(src/main.c)
 ## [/section] Source
 # [/section] Project
@@ -249,6 +253,7 @@ add_compile_definitions(KENDRYTE_SDK_RELEASE_DATE=20190906195432)
 cmake_policy(SET CMP0079 NEW)
 ## root project will include all dependency
 add_subdirectory("${CMAKE_CURRENT_LIST_DIR}//kendryte_libraries/kendryte_standalone-sdk" "kendryte_standalone-sdk")
+add_subdirectory("${CMAKE_CURRENT_LIST_DIR}//kendryte_libraries/kendryte_sdcard-standalone-driver" "kendryte_sdcard-standalone-driver")
 ## add simple folder dependency
 # [/section] Dependency
 
@@ -272,6 +277,8 @@ target_link_options(${PROJECT_NAME} PUBLIC
 target_link_libraries(${PROJECT_NAME} PUBLIC -Wl,--start-group
 	## -> K210_SD_Card: K210_SD_Card
 	##	not link component
+	## -> kendryte/sdcard-standalone-driver: kendryte_sdcard-standalone-driver
+	"kendryte_sdcard-standalone-driver"
 	"gcc"
 	"m"
 	"c"

@@ -35,6 +35,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/kendryte_standalone-sdk/cmake_install.cmake")
+  include("J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/kendryte_sdcard-standalone-driver/cmake_install.cmake")
 
 endif()
 

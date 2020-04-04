@@ -4,3 +4,6 @@ J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/CMakeFiles/
 J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir
 J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/kendryte_standalone-sdk/CMakeFiles/edit_cache.dir
 J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/kendryte_standalone-sdk/CMakeFiles/rebuild_cache.dir
+J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir
+J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/kendryte_sdcard-standalone-driver/CMakeFiles/edit_cache.dir
+J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build/kendryte_sdcard-standalone-driver/CMakeFiles/rebuild_cache.dir

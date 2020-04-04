@@ -136,6 +136,73 @@ kendryte_standalone-sdk/fast:
 	$(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build
 .PHONY : kendryte_standalone-sdk/fast
 
+#=============================================================================
+# Target rules for targets named kendryte_sdcard-standalone-driver
+
+# Build rule for target.
+kendryte_sdcard-standalone-driver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kendryte_sdcard-standalone-driver
+.PHONY : kendryte_sdcard-standalone-driver
+
+# fast build rule for target.
+kendryte_sdcard-standalone-driver/fast:
+	$(MAKE) -f kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/build.make kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/build
+.PHONY : kendryte_sdcard-standalone-driver/fast
+
+config/fpioa-config.obj: config/fpioa-config.c.obj
+
+.PHONY : config/fpioa-config.obj
+
+# target to build an object file
+config/fpioa-config.c.obj:
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && $(MAKE) -f CMakeFiles/K210_SD_Card.dir/build.make CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.obj
+.PHONY : config/fpioa-config.c.obj
+
+config/fpioa-config.i: config/fpioa-config.c.i
+
+.PHONY : config/fpioa-config.i
+
+# target to preprocess a source file
+config/fpioa-config.c.i:
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && $(MAKE) -f CMakeFiles/K210_SD_Card.dir/build.make CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.i
+.PHONY : config/fpioa-config.c.i
+
+config/fpioa-config.s: config/fpioa-config.c.s
+
+.PHONY : config/fpioa-config.s
+
+# target to generate assembly for a file
+config/fpioa-config.c.s:
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && $(MAKE) -f CMakeFiles/K210_SD_Card.dir/build.make CMakeFiles/K210_SD_Card.dir/config/fpioa-config.c.s
+.PHONY : config/fpioa-config.c.s
+
+config/ide-hook-main.obj: config/ide-hook-main.c.obj
+
+.PHONY : config/ide-hook-main.obj
+
+# target to build an object file
+config/ide-hook-main.c.obj:
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && $(MAKE) -f CMakeFiles/K210_SD_Card.dir/build.make CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.obj
+.PHONY : config/ide-hook-main.c.obj
+
+config/ide-hook-main.i: config/ide-hook-main.c.i
+
+.PHONY : config/ide-hook-main.i
+
+# target to preprocess a source file
+config/ide-hook-main.c.i:
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && $(MAKE) -f CMakeFiles/K210_SD_Card.dir/build.make CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.i
+.PHONY : config/ide-hook-main.c.i
+
+config/ide-hook-main.s: config/ide-hook-main.c.s
+
+.PHONY : config/ide-hook-main.s
+
+# target to generate assembly for a file
+config/ide-hook-main.c.s:
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_SD_Card/build && $(MAKE) -f CMakeFiles/K210_SD_Card.dir/build.make CMakeFiles/K210_SD_Card.dir/config/ide-hook-main.c.s
+.PHONY : config/ide-hook-main.c.s
+
 src/main.obj: src/main.c.obj
 
 .PHONY : src/main.obj
@@ -173,6 +240,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... kendryte_standalone-sdk"
+	@echo "... kendryte_sdcard-standalone-driver"
+	@echo "... config/fpioa-config.obj"
+	@echo "... config/fpioa-config.i"
+	@echo "... config/fpioa-config.s"
+	@echo "... config/ide-hook-main.obj"
+	@echo "... config/ide-hook-main.i"
+	@echo "... config/ide-hook-main.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
