@@ -14,6 +14,17 @@ CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.obj: ../drivers/
 CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.obj: ../drivers/lcd/include/nt35310.h
 CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.obj: ../drivers/lcd/src/lcd.c
 
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj: ../drivers/lcd/include/nt35310.h
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/encoding.h
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/platform.h
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/dmac.h
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/gpio_common.h
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/gpiohs.h
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/io.h
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj: ../drivers/lcd/src/nt35310.c
+
 CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj: ../drivers/lcd/include/img.h
 CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj: ../drivers/lcd/include/lcd.h
 CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj: ../drivers/lcd/include/nt35310.h
@@ -28,15 +39,4 @@ CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj: ../kendryte_libraries/
 CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
 CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/sysctl.h
 CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj: ../src/main.c
-
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj: ../drivers/lcd/include/nt35310.h
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/encoding.h
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/platform.h
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/dmac.h
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/gpio_common.h
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/gpiohs.h
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/io.h
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj: ../src/nt35310.c
 

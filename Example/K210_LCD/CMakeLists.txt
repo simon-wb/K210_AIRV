@@ -221,9 +221,9 @@ include_directories(
 ## [section] Source
 ## add source from config json (5 files matched)
 add_source_file(drivers/lcd/src/lcd.c)
+add_source_file(drivers/lcd/src/nt35310.c)
 add_source_file(config/fpioa-config.c)
 add_source_file(config/ide-hook-main.c)
-add_source_file(src/nt35310.c)
 add_source_file(src/main.c)
 ## [/section] Source
 # [/section] Project

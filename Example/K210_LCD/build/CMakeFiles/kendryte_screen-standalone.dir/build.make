@@ -70,9 +70,22 @@ CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.s"
 	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/drivers/lcd/src/lcd.c -o CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.s
 
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj: CMakeFiles/kendryte_screen-standalone.dir/flags.make
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj: ../drivers/lcd/src/nt35310.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj"
+	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj   -c J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/drivers/lcd/src/nt35310.c
+
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.i"
+	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/drivers/lcd/src/nt35310.c > CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.i
+
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.s"
+	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/drivers/lcd/src/nt35310.c -o CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.s
+
 CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj: CMakeFiles/kendryte_screen-standalone.dir/flags.make
 CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj: ../config/fpioa-config.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj"
 	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj   -c J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/config/fpioa-config.c
 
 CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.s: cmake_force
 
 CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj: CMakeFiles/kendryte_screen-standalone.dir/flags.make
 CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj: ../config/ide-hook-main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj"
 	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj   -c J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/config/ide-hook-main.c
 
 CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.i: cmake_force
@@ -95,19 +108,6 @@ CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.i: cmake_force
 CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.s"
 	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/config/ide-hook-main.c -o CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.s
-
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj: CMakeFiles/kendryte_screen-standalone.dir/flags.make
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj: ../src/nt35310.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj"
-	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj   -c J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/src/nt35310.c
-
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.i"
-	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/src/nt35310.c > CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.i
-
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.s"
-	cd J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && J:/Kendryte_IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/src/nt35310.c -o CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.s
 
 CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj: CMakeFiles/kendryte_screen-standalone.dir/flags.make
 CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj: ../src/main.c
@@ -125,18 +125,18 @@ CMakeFiles/kendryte_screen-standalone.dir/src/main.c.s: cmake_force
 # Object files for target kendryte_screen-standalone
 kendryte_screen__standalone_OBJECTS = \
 "CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.obj" \
+"CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj" \
 "CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj" \
 "CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj" \
-"CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj" \
 "CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj"
 
 # External object files for target kendryte_screen-standalone
 kendryte_screen__standalone_EXTERNAL_OBJECTS =
 
 kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.obj
+kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj
 kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj
 kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj
-kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj
 kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj
 kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/build.make
 kendryte_screen-standalone: kendryte_standalone-sdk/libkendryte_standalone-sdk.a

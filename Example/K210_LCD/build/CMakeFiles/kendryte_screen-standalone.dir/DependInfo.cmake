@@ -7,8 +7,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/config/fpioa-config.c" "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj"
   "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/config/ide-hook-main.c" "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj"
   "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/drivers/lcd/src/lcd.c" "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.obj"
+  "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/drivers/lcd/src/nt35310.c" "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj"
   "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/src/main.c" "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj"
-  "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/src/nt35310.c" "J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build/CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

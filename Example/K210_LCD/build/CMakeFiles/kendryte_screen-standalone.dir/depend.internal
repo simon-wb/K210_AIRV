@@ -14,6 +14,17 @@ CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.obj
  ../drivers/lcd/include/lcd.h
  ../drivers/lcd/include/nt35310.h
  J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/drivers/lcd/src/lcd.c
+CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj
+ ../drivers/lcd/include/nt35310.h
+ ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/encoding.h
+ ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/platform.h
+ ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/dmac.h
+ ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/gpio_common.h
+ ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/gpiohs.h
+ ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/io.h
+ ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
+ ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
+ J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/drivers/lcd/src/nt35310.c
 CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj
  ../drivers/lcd/include/img.h
  ../drivers/lcd/include/lcd.h
@@ -29,14 +40,3 @@ CMakeFiles/kendryte_screen-standalone.dir/src/main.c.obj
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/sysctl.h
  J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/src/main.c
-CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj
- ../drivers/lcd/include/nt35310.h
- ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/encoding.h
- ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/platform.h
- ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/dmac.h
- ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/gpio_common.h
- ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/gpiohs.h
- ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/io.h
- ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
- ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
- J:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/src/nt35310.c

@@ -8,7 +8,7 @@
     "source": [
         "src/*.c",
         "drivers/lcd/src/lcd.c",
-        "drivers/lcd/src/st7789.c"
+        "drivers/lcd/src/nt35310.c"
     ],
     "header": [
         "src",

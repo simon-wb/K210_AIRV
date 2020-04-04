@@ -217,6 +217,33 @@ drivers/lcd/src/lcd.c.s:
 	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/lcd.c.s
 .PHONY : drivers/lcd/src/lcd.c.s
 
+drivers/lcd/src/nt35310.obj: drivers/lcd/src/nt35310.c.obj
+
+.PHONY : drivers/lcd/src/nt35310.obj
+
+# target to build an object file
+drivers/lcd/src/nt35310.c.obj:
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.obj
+.PHONY : drivers/lcd/src/nt35310.c.obj
+
+drivers/lcd/src/nt35310.i: drivers/lcd/src/nt35310.c.i
+
+.PHONY : drivers/lcd/src/nt35310.i
+
+# target to preprocess a source file
+drivers/lcd/src/nt35310.c.i:
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.i
+.PHONY : drivers/lcd/src/nt35310.c.i
+
+drivers/lcd/src/nt35310.s: drivers/lcd/src/nt35310.c.s
+
+.PHONY : drivers/lcd/src/nt35310.s
+
+# target to generate assembly for a file
+drivers/lcd/src/nt35310.c.s:
+	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/drivers/lcd/src/nt35310.c.s
+.PHONY : drivers/lcd/src/nt35310.c.s
+
 src/main.obj: src/main.c.obj
 
 .PHONY : src/main.obj
@@ -244,33 +271,6 @@ src/main.c.s:
 	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/main.c.s
 .PHONY : src/main.c.s
 
-src/nt35310.obj: src/nt35310.c.obj
-
-.PHONY : src/nt35310.obj
-
-# target to build an object file
-src/nt35310.c.obj:
-	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.obj
-.PHONY : src/nt35310.c.obj
-
-src/nt35310.i: src/nt35310.c.i
-
-.PHONY : src/nt35310.i
-
-# target to preprocess a source file
-src/nt35310.c.i:
-	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.i
-.PHONY : src/nt35310.c.i
-
-src/nt35310.s: src/nt35310.c.s
-
-.PHONY : src/nt35310.s
-
-# target to generate assembly for a file
-src/nt35310.c.s:
-	cd j:/Learn/K210_example/K210_AIRV/K210_AIRV/Example/K210_LCD/build && $(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/src/nt35310.c.s
-.PHONY : src/nt35310.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -290,12 +290,12 @@ help:
 	@echo "... drivers/lcd/src/lcd.obj"
 	@echo "... drivers/lcd/src/lcd.i"
 	@echo "... drivers/lcd/src/lcd.s"
+	@echo "... drivers/lcd/src/nt35310.obj"
+	@echo "... drivers/lcd/src/nt35310.i"
+	@echo "... drivers/lcd/src/nt35310.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/nt35310.obj"
-	@echo "... src/nt35310.i"
-	@echo "... src/nt35310.s"
 .PHONY : help
 
 
