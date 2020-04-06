@@ -86,11 +86,11 @@ int main(void) {
   lcd_init();
 
   lcd_clear(WHITE);
-  lcd_draw_string(85, 65, "Bad Apple", BLACK);
+  lcd_draw_string(120, 100, "Bad Apple", BLACK);
   sleep(1);
 
   uint64_t time_start = sysctl_get_time_us();
-  for (size_t i = 1; i < 2730; i = i + 3) {
+  for (size_t i = 1; i < 2730; i = i + 2) {
     uint64_t draw_start_time = sysctl_get_time_us();
     sprintf(filename_buffer, "BadApple6PS/%d.bin", i);
     if ((ret = f_open(&file, filename_buffer, FA_READ)) == FR_OK) {
@@ -100,9 +100,9 @@ int main(void) {
 
     lcd_draw_picture(0, 0, 320, 240, frame_data);
 
-    while ((sysctl_get_time_us() - draw_start_time) < 153600) {
-      ;
-    }
+    // while ((sysctl_get_time_us() - draw_start_time) < 153600) {
+    //   ;
+    // }
   }
 
   uint64_t time_end = sysctl_get_time_us();
@@ -111,9 +111,9 @@ int main(void) {
 
   char buffer[64];
   lcd_clear(BLACK);
-  lcd_draw_string(45, 40, "Bad Apple with K210", WHITE);
-  sprintf(buffer, "Total time: %ds  FPS: %dHz", time_s, 1316 / time_s);
-  lcd_draw_string(15, 90, buffer, WHITE);
+  lcd_draw_string(90, 80, "Bad Apple with K210", WHITE);
+  sprintf(buffer, "Total time: %ds  FPS: %dHz", time_s, 1365 / time_s);
+  lcd_draw_string(60, 120, buffer, WHITE);
 
   while (1)
     ;
